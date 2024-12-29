@@ -136,7 +136,7 @@ Add a `vercel.json` file for proper deployment:
 ![Signup Page](assets/signup.jpg)
 
 ### Video Demo:
-[![Watch the Demo](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your-video-id)
+[![Watch the Demo](https://img.youtube.com/vi/2jNYjOZPXZA/maxresdefault.jpg)](https://www.youtube.com/watch?v=2jNYjOZPXZA)
 
 ---
 
