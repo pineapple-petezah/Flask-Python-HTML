@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login & Signup</title>
+    <link rel="icon" type="image/x-icon" href="/assets/home1.PNG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <style>
         body {
             margin: 0;
@@ -12,8 +15,25 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: linear-gradient(135deg, #a51eff, #891cc3);
+            background: linear-gradient(135deg, #230536, #1e032c);
         }
+
+        #heading {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s ease;
+            text-align: center;
+            font-family: serif;
+        }
+
+        #heading:hover {
+            color: #095ebe;
+            transform: scale(1.1);
+        }
+
         .form-container {
             background: #fff;
             width: 400px;
@@ -21,11 +41,13 @@
             overflow: hidden;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
+
         .form-header {
             display: flex;
             justify-content: space-evenly;
             background: linear-gradient(to right, #831eff, #701cc3);
         }
+
         .form-header div {
             flex: 1;
             text-align: center;
@@ -35,15 +57,18 @@
             font-weight: bold;
             transition: 0.3s ease;
         }
+
         .form-header .active {
             background: white;
             color: #591cc3;
             border-radius: 10px 10px 0 0;
         }
+
         .form-content {
             padding: 30px;
             text-align: center;
         }
+
         .form-content input {
             width: calc(100% - 40px);
             padding: 12px;
@@ -52,21 +77,25 @@
             border-radius: 5px;
             font-size: 14px;
         }
+
         .password-container {
             position: relative;
             margin: 10px 0;
         }
+
         .password-container input {
-            width: 100%;
+            width: 90%;
         }
+
         .password-container i {
             position: absolute;
-            right: 10px;
+            right: 20px;
             top: 50%;
             transform: translateY(-50%);
             cursor: pointer;
             color: #777;
         }
+
         .form-content button {
             width: 100%;
             padding: 12px;
@@ -79,24 +108,32 @@
             cursor: pointer;
             transition: 0.3s ease;
         }
+
         .form-content button:hover {
             background: #671cc3;
         }
+
         .form-footer {
             text-align: center;
             margin-top: 10px;
         }
+
         .form-footer a {
             color: #591cc3;
             text-decoration: none;
             font-weight: bold;
         }
+
         .form-footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
+    <a href="https://codewithbismillah.vercel.app/" target="_blank">
+        <h2 id="heading">GO TO THE <i class="fas fa-home"></i></h2>
+    </a>
     <div class="form-container">
         <div class="form-header">
             <div id="login-tab" class="active" onclick="showLogin()">Login</div>
@@ -161,9 +198,10 @@
                 icon.textContent = "🙈";
             } else {
                 passwordField.type = "password";
-                icon.textContent = "👁️"; 
+                icon.textContent = "👁️";
             }
         }
     </script>
 </body>
+
 </html>
