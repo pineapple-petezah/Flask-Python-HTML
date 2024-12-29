@@ -148,10 +148,6 @@ Add a `vercel.json` file for proper deployment:
 
 ---
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 ## Contact
 For any questions or feedback, reach out to:
