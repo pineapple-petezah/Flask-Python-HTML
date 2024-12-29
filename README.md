@@ -21,11 +21,10 @@ flask-login-signup/
 │   ├── app.py  # Main Flask application file
 ├── templates/
 │   ├── index.html  # Frontend for the home page
-│   ├── login.html  # Frontend for the login page
-│   ├── signup.html # Frontend for the signup page
+│   ├── signup.html # Frontend for the both login and signup page
 ├── static/
 │   ├── css/
-│   │   ├── styles.css  # Styling for the application
+│   │   ├── styles.css  # Styling for the application(optional[you can write HTML,CSS and JS in index.html])
 │   ├── js/
 │   │   ├── app.js  # JavaScript functionality
 ├── requirements.txt  # Python dependencies
