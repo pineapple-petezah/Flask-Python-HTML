@@ -127,7 +127,7 @@ Add a `vercel.json` file for proper deployment:
 
 ### Screenshots:
 #### Home Page:
-![Home Page](assets/home.png)
+![Home Page](assets/home1.PNG)
 
 #### Login Page:
 ![Login Page](assets/login.jpg)
